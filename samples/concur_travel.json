@@ -1,0 +1,44 @@
+{
+  "expenses": [
+    {
+      "expenseId": "EXP-7001",
+      "expenseType": "Airfare",
+      "transactionDate": "2026-01-12",
+      "amount": 820.35,
+      "currency": "USD",
+      "vendor": "Delta Air Lines",
+      "originAirport": "DTW",
+      "destinationAirport": "SFO",
+      "distanceKm": 3330
+    },
+    {
+      "expenseId": "EXP-7002",
+      "expenseType": "Hotel",
+      "startDate": "2026-01-12",
+      "endDate": "2026-01-15",
+      "transactionDate": "2026-01-15",
+      "amount": 684.10,
+      "currency": "USD",
+      "vendor": "Hyatt Regency",
+      "nights": 3
+    },
+    {
+      "expenseId": "EXP-7003",
+      "expenseType": "Taxi/Rideshare",
+      "transactionDate": "2026-01-15",
+      "amount": 44.20,
+      "currency": "USD",
+      "vendor": "Uber",
+      "distanceKm": 0
+    },
+    {
+      "expenseId": "EXP-7004",
+      "expenseType": "Rail",
+      "transactionDate": "2026-01-21",
+      "amount": 68.00,
+      "currency": "EUR",
+      "vendor": "Deutsche Bahn",
+      "distanceKm": 210
+    }
+  ]
+}

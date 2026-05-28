@@ -1,0 +1,4 @@
+AccountNumber,MeterNumber,FacilityCode,Utility,BillingStart,BillingEnd,Usage,Unit,Tariff,BillAmount,Currency
+UT-10029,MTR-8841,PL01,DTE Energy,2026-01-01,2026-01-31,182400,kWh,Large General Service,21488.20,USD
+UT-20994,MTR-0920,DE02,EnBW,01/02/2026,29/02/2026,310,MWh,Industrial Time of Use,72110.90,EUR
+UT-71002,MTR-7722,MX07,CFE,2026-01-14,2026-01-20,62000,kWh,HM Industrial,7900.00,USD

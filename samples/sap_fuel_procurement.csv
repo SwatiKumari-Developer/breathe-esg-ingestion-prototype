@@ -1,0 +1,4 @@
+Bestellung,Position,Werk,Buchungsdatum,Warengruppe,Kurztext,Menge,MEINS,Lieferant,Betrag,Waehrung
+4500009821,00010,PL01,15.01.2026,FUEL-DIESEL,Diesel fuel for backup generators,1250,L,Northstar Fuels,1442.50,USD
+4500009822,00020,DE02,20260118,MRO,Replacement bearings for press line,42,EA,Mueller Industrial,3810.00,EUR
+4500009823,00010,MX07,01/25/2026,FUEL-DIESEL,Kraftstoff Diesel Stapler,420,litre,Energia Norte,498.00,USD
