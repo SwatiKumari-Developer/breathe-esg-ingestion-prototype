@@ -51,14 +51,17 @@ Use files in `samples/`:
 
 ## Deployment Notes
 
-The backend includes `Procfile`, `runtime.txt`, and production settings for Render/Railway-style deployments. Set:
+This repo can be deployed as one Render Blueprint service. The included `render.yaml` builds the React app, collects static assets, runs migrations, seeds demo reference data, and starts Django with Gunicorn.
 
-- `SECRET_KEY`
-- `DEBUG=false`
-- `ALLOWED_HOSTS`
-- `CORS_ALLOWED_ORIGINS`
-- `DATABASE_URL`
+On Render:
 
-The frontend can be deployed on Vercel/Netlify with:
+1. Create a new Blueprint from this GitHub repository.
+2. Let Render detect `render.yaml`.
+3. Deploy the web service and PostgreSQL database.
+4. Open the generated `https://...onrender.com` URL.
 
-- `VITE_API_BASE_URL=https://your-backend.example.com/api`
+The same deployed URL serves:
+
+- React dashboard at `/`
+- Django REST API at `/api/`
+- Django admin at `/admin/`
