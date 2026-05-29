@@ -32,15 +32,6 @@ cmd /c npm install
 cmd /c npm run dev
 ```
 
-If Vite dev mode has trouble on your Windows/Node version, use the verified production preview:
-
-```powershell
-cmd /c npm run build
-cmd /c npm run serve
-```
-
-Open the Vite URL and use the seeded tenant `Acme Manufacturing`.
-
 ## Demo Uploads
 
 Use files in `samples/`:
@@ -48,20 +39,3 @@ Use files in `samples/`:
 - `sap_fuel_procurement.csv`
 - `utility_electricity.csv`
 - `concur_travel.json`
-
-## Deployment Notes
-
-This repo can be deployed as one Render Blueprint service. The included `render.yaml` builds the React app, collects static assets, runs migrations, seeds demo reference data, and starts Django with Gunicorn.
-
-On Render:
-
-1. Create a new Blueprint from this GitHub repository.
-2. Let Render detect `render.yaml`.
-3. Deploy the web service and PostgreSQL database.
-4. Open the generated `https://...onrender.com` URL.
-
-The same deployed URL serves:
-
-- React dashboard at `/`
-- Django REST API at `/api/`
-- Django admin at `/admin/`
